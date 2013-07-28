@@ -7,3 +7,7 @@ Rubik's Cube made in CSS3 and HTML.
 
 
 ![img](rubik's cube.PNG)
+
+
+
+##[Demo](<http://codepen.io/lukasz-zak/full/tfDHq>)##
