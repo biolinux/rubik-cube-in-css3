@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rubik's Cube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <div class="lvl lvl1">
+      
+      <div class="row row1">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+      <div class="row row2">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+      <div class="row row3">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    <div class="lvl lvl2">
+      
+      <div class="row row1">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+      <div class="row row2">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+      <div class="row row3">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="lvl lvl3">
+      
+      <div class="row row1">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+      <div class="row row2">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+      <div class="row row3">
+        <div class="cube col col1">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col2">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cube col col3">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="options">
+    <label for="rotateX">Rotate X: <span class="deg">335 deg</span></label>
+    <input type="range" min="0" max="360" value="335" step="5" id="rotateX"/>
+    <label for="rotateY">Rotate Y: <span class="deg">335 deg</span></label>
+    <input type="range" min="0" max="360" value="335" step="5" id="rotateY"/>
+    <label for="rotateZ">Rotate Z: <span class="deg">0 deg</span></label>
+    <input type="range" min="0" max="360" value="0" step="5" id="rotateZ"/>
+    <hr />
+    <input type="checkbox" id="makeAnimation" />
+    <label for="makeAnimation">Enable animation</label>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
